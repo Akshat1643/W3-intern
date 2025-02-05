@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .top-header ul{
+    list-style-type: none;
+}
+.top-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;}
+.r-r{
+    display: flex;
+    gap: 1rem;
+}
+.mini-main{
+    display: flex;
+    justify-content: space-around;
+}
+.mini-main ul{
+    list-style-type: none;
+}
+.d-d{
+    display: flex;
+    gap: 1rem;
+}
+.main-header{
+    background-color: rgb(213, 213, 213);
+    padding: 2rem;
+    font-size:xx-large;
+}
+.d-d li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.search-container {
+    display: flex;
+    padding-top: 15px;
+    gap: 5px;
+}
+
+.btn-small {
+    background-color: rgb(36, 76, 220);
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+  
+}
+
+.search {
+    padding: 1rem;
+    height: 30px;
+    border: 1px solid #ccc;
+    flex: 1;
+    width: 400px;
+   
+}
+.main-header-2{
+    background-color:rgb(77, 133, 236);
+    padding: .8rem;
+    font-size:large;
+
+}
+
+.mini-main-2{
+    display: flex;
+    justify-content: space-between ;
+  
+}
+.mini-main-2 ul{
+    list-style-type: none;
+}
+.d-d-2{
+    display: flex;
+    gap: 20px;
+    padding-left: 70px;
+}
+.d-d-3{
+    display: flex;
+    gap: 30px;
+    padding-right: 70px;
+}
+.d-d-3 li{
+    display: flex;
+    gap: 10px;
+   
+}
+.all-department{
+    background-color: yellow;
+}
+.blog{
+    background-color: yellow;
+}
+.card{
+    display: flex;
+    gap: 20px;
+    padding:17px 40px;
+  }
+  .card1{
+    background-color: rgb(213, 213, 213);
+    height: 500px;
+    width: 70%;
+    border-radius: 30px;
+    padding-left: 10px;
+  }
+  .card2{
+    height: 500px;
+    width: 30%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sub1{
+    background-color: rgb(213, 213, 213);
+    height: 250px;
+    width: 25;
+    border-radius: 30px;
+  }
+  .sub2{
+    background-color: rgb(213, 213, 213);
+    height: 250px;
+    width: 25;
+    border-radius: 30px;
+  }
+  .list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.fotter-1{
+    list-style-type: none;
+    background-color: #3A4855
+}
+.fotter-1 ul{
+    list-style-type: none;
+}
+.list li{
+    display: flex;
+    gap: 10px;
+   
+}
+.main-fotter{
+    font-size: larger;
+    color: white;
+}
+/* / why card */
+.why-main {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 15px;
+    width: full;
+}
+.why-buttons  {
+    display: flex;
+
+}
+.why-buttons button{
+    padding: 8px 15px;
+    border: none;
+}
+.why-card1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    flex-shrink: 0;
+    height:300px ;
+    width: 250px;
+    border-radius: 20px;
+}
+.why-card{
+    display: flex;
+    gap: 5px;
+    overflow-x: auto;
+    width: 90%
+    
+}
