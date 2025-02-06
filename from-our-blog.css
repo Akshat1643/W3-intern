@@ -1,19 +1,19 @@
-.why-main {
+.why-main-f {
     display: flex;
     flex-direction:column;
     align-items: center;
     gap: 15px;
     width: full;
 }
-.why-buttons  {
+.why-buttons-f  {
     display: flex;
 
 }
-.why-buttons button{
+.why-buttons-f button{
     padding: 18px 25px;
     border: none;
 }
-.why-card1{
+.why-card1-f{
     height: 100px;
     width: 100px;
     background-color: black;
@@ -22,10 +22,29 @@
     width: 250px;
     border-radius: 20px;
 }
-.why-card{
+.why-card-f{
     display: flex;
     gap: 5px;
     overflow-x: auto;
-    width: 90%
-    
+    overflow-y: hidden;
+    width: 100%;
+    height:420px;
+    padding:20px
+}
+.product-c-main{
+    flex-shrink: 0;
+}
+.why-head{
+    font-size: large;
+}
+.from-our-blog-hr{
+    width: 200px;
+    height: 2px;
+    background-color: red;
+}
+.see-all-button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border: none;
 }

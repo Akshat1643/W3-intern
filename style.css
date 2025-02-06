@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+  }
+  ::-webkit-scrollbar{
+    display: none;
   }
   
   .top-header ul{
@@ -47,7 +51,7 @@
 .search-container {
     display: flex;
     padding-top: 15px;
-    gap: 5px;
+    gap: 0px;
 }
 
 .btn-small {
@@ -56,7 +60,7 @@
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
-    height: 30px;
+    height: 34px;
   
 }
 
@@ -70,7 +74,7 @@
 }
 .main-header-2{
     background-color:rgb(13, 82, 214);
-    padding: .8rem;
+    padding: .1rem;
     font-size:large;
 
 }
@@ -102,21 +106,24 @@
 }
 .d-d-3 a{
     color: white;
-    text-decoration: none;
     padding: 15px;
-    display: block;
     text-align: center;
 }
 .d-d-3 li{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
+   
+    padding: 15px;
+    text-align: center;
 }
+  
 .all-department a{
     background-color:rgb(254, 212, 48);
     color: black;
 }
-.blog a{
+.blog {
     color: black;
     background-color: rgb(254, 212, 48);
 }
@@ -130,7 +137,7 @@
     height: 500px;
     width: 70%;
     border-radius: 30px;
-    padding-left: 10px;
+    padding-left: 0px;
   }
   .card2{
     height: 500px;
@@ -155,7 +162,7 @@
   .list{
     display: flex;
     justify-content: space-evenly;
-    padding: 30px;
+    padding: 17px;
 }
 .fotter-1{
     list-style-type: none;
@@ -166,9 +173,14 @@
 }
 .list li{
     display: flex;
-    gap: 10px;
-    padding: 10px;
+    gap: 15px;
+    padding: 15px;
    
+}
+.list li i{
+    height: 10px;
+    width: 50px;
+    font-size: 40px;
 }
 .main-fotter{
     font-size: larger;
@@ -181,7 +193,8 @@
     flex-direction:column;
     align-items: center;
     gap: 15px;
-    width: full;
+    width: 100%;
+    padding: 20px;
 }
 .why-buttons  {
     display: flex;
@@ -204,6 +217,16 @@
     display: flex;
     gap: 5px;
     overflow-x: auto;
-    width: 90%
-    
+    overflow-y: hidden;
+    width: 90%;
+ 
+
+}
+.why-card-hr{
+    width:200px;
+    height: 2px;
+    background-color: red;
+}
+.why-b-1{
+    background-color: blue;
 }
