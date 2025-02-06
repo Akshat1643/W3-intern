@@ -1,0 +1,10 @@
+.fob-main{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fab-maim-c{
+    padding: 5px;
+}
